@@ -2,12 +2,11 @@ using PlatformService.Models;
 
 namespace PlatformService.Data
 {
-  class IPlatformRepo
+  interface IPlatformRepo
   {
-    bool SaveChanges();
-
-    IEnumerable<Platform> GetPlatforms();
-    Platform GetPlatformById(int id);
-    void createPlatform(Platform platform);
+    public bool SaveChanges();
+    public IEnumerable<Platform> GetPlatforms();
+    public Platform GetPlatformById(int id);
+    public void createPlatform(Platform platform);
   }
 }
