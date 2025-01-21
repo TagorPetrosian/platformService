@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ABlCT/9fthc=",
+  "dgSpecHash": "HzvNMkWnzrQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\tagorpe\\projects\\tg-ms\\PlatformService\\PlatformService.csproj",
   "expectedPackageFiles": [
@@ -16,6 +16,7 @@
     "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.common\\4.8.0\\microsoft.codeanalysis.common.4.8.0.nupkg.sha512",
     "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.8.0\\microsoft.codeanalysis.csharp.4.8.0.nupkg.sha512",
+    "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.csharp.codestyle\\4.12.0\\microsoft.codeanalysis.csharp.codestyle.4.12.0.nupkg.sha512",
     "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.csharp.workspaces\\4.8.0\\microsoft.codeanalysis.csharp.workspaces.4.8.0.nupkg.sha512",
     "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.fxcopanalyzers\\3.3.0\\microsoft.codeanalysis.fxcopanalyzers.3.3.0.nupkg.sha512",
     "C:\\Users\\tagorpe\\.nuget\\packages\\microsoft.codeanalysis.versioncheckanalyzer\\3.3.0\\microsoft.codeanalysis.versioncheckanalyzer.3.3.0.nupkg.sha512",

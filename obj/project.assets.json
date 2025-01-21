@@ -270,6 +270,13 @@
           }
         }
       },
+      "Microsoft.CodeAnalysis.CSharp.CodeStyle/4.12.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.CodeAnalysis.CSharp.CodeStyle.props": {},
+          "build/Microsoft.CodeAnalysis.CSharp.CodeStyle.targets": {}
+        }
+      },
       "Microsoft.CodeAnalysis.CSharp.Workspaces/4.8.0": {
         "type": "package",
         "dependencies": {
@@ -2681,6 +2688,85 @@
         "lib/netstandard2.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll",
         "microsoft.codeanalysis.csharp.4.8.0.nupkg.sha512",
         "microsoft.codeanalysis.csharp.nuspec"
+      ]
+    },
+    "Microsoft.CodeAnalysis.CSharp.CodeStyle/4.12.0": {
+      "sha512": "5S+LHLhm0am4MWQQMN0O3VyKA/St5JCqH1yv+1YGZl2klIJlLlmNA/KTLCVJSC1kZPIKR1MFF/3g9FqsyzIyCQ==",
+      "type": "package",
+      "path": "microsoft.codeanalysis.csharp.codestyle/4.12.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "ThirdPartyNotices.rtf",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CSharp.CodeStyle.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CodeStyle.Fixes.dll",
+        "analyzers/dotnet/cs/Microsoft.CodeAnalysis.CodeStyle.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/cs/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/de/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/es/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/fr/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/it/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/ja/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/ko/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/pl/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/pt-BR/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/ru/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/tr/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/zh-Hans/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.CSharp.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.CSharp.CodeStyle.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.CodeStyle.Fixes.resources.dll",
+        "analyzers/dotnet/cs/zh-Hant/Microsoft.CodeAnalysis.CodeStyle.resources.dll",
+        "build/Microsoft.CodeAnalysis.CSharp.CodeStyle.props",
+        "build/Microsoft.CodeAnalysis.CSharp.CodeStyle.targets",
+        "build/config/analysislevelstyle_all.globalconfig",
+        "build/config/analysislevelstyle_default.globalconfig",
+        "build/config/analysislevelstyle_minimum.globalconfig",
+        "build/config/analysislevelstyle_none.globalconfig",
+        "build/config/analysislevelstyle_recommended.globalconfig",
+        "microsoft.codeanalysis.csharp.codestyle.4.12.0.nupkg.sha512",
+        "microsoft.codeanalysis.csharp.codestyle.nuspec",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
       ]
     },
     "Microsoft.CodeAnalysis.CSharp.Workspaces/4.8.0": {
@@ -5678,6 +5764,7 @@
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.AspNetCore.OpenApi >= 8.0.8",
+      "Microsoft.CodeAnalysis.CSharp.CodeStyle >= 4.12.0",
       "Microsoft.CodeAnalysis.FxCopAnalyzers >= 3.3.0",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.1",
@@ -5738,6 +5825,12 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[8.0.8, )"
+          },
+          "Microsoft.CodeAnalysis.CSharp.CodeStyle": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[4.12.0, )"
           },
           "Microsoft.CodeAnalysis.FxCopAnalyzers": {
             "target": "Package",
