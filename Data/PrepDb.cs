@@ -16,7 +16,7 @@ namespace PlatformService.Data
             }
         }
 
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Do not pass literals as localized parameters")]
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Globalization", "CA1303:Do noSt pass literals as localized parameters")]
         private static void SeedData(AppDbContext context, IApplicationBuilder app)
         {
             if (!context.Platforms.Any())
@@ -24,13 +24,14 @@ namespace PlatformService.Data
                 Console.WriteLine("--> Seeding Data...");
 
                 context.Platforms.AddRange(
-                    new Platform() { Id=1, Name="Dot Net", Publisher="Microsoft", Cost="Free" },
-                    new Platform() { Id=2, Name="SQL Server Express", Publisher="Microsoft", Cost="Free" },
-                    new Platform() { Id=3, Name="Kubernetes", Publisher="Cloud Native Computing Foundation", Cost="Free" }
+                    new Platform() { Id = 1, Name = "Dot Net", Publisher = "Microsoft", Cost = "Free" },
+                    new Platform() { Id = 2, Name = "SQL Server Express", Publisher = "Microsoft", Cost = "Free" },
+                    new Platform() { Id = 3, Name = "Kubernetes", Publisher = "Cloud Native Computing Foundation", Cost = "Free" }
                 );
 
                 context.SaveChanges();
-            } else
+            }
+            else
             {
                 Console.WriteLine("--> We already have data");
             }
