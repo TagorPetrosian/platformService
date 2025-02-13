@@ -6,6 +6,8 @@ namespace PlatformService.Data
     {
         public static void PrepPopulation(IApplicationBuilder app)
         {
+            ArgumentNullException.ThrowIfNull(app);
+
             using (var serviceScope = app.ApplicationServices.CreateScope())
             {
                 var context = serviceScope.ServiceProvider.GetService<AppDbContext>();
