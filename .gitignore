@@ -48,4 +48,26 @@ msbuild.wrn
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/ 
+!**/[Pp]ackages/build/
+
+# personal notes
+NOTES.md
+
+# obj files
+obj/Debug/net8.0/PlatformService.AssemblyInfo.cs
+obj/Debug/net8.0/PlatformService.AssemblyInfoInputs.cache
+obj/Debug/net8.0/PlatformService.assets.cache
+obj/Debug/net8.0/PlatformService.csproj.AssemblyReference.cache
+obj/Debug/net8.0/PlatformService.csproj.CoreCompileInputs.cache
+obj/Debug/net8.0/PlatformService.csproj.FileListAbsolute.txt
+obj/Debug/net8.0/PlatformService.dll
+obj/Debug/net8.0/PlatformService.GeneratedMSBuildEditorConfig.editorconfig
+obj/Debug/net8.0/PlatformService.genruntimeconfig.cache
+obj/Debug/net8.0/PlatformService.GlobalUsings.g.cs
+obj/Debug/net8.0/PlatformService.MvcApplicationPartsAssemblyInfo.cache
+obj/Debug/net8.0/PlatformService.MvcApplicationPartsAssemblyInfo.cs
+obj/Debug/net8.0/PlatformService.pdb
+obj/Debug/net8.0/PlatformService.sourcelink.json
+obj/Debug/net8.0/apphost
+obj/Debug/net8.0/ref/
+obj/Debug/net8.0/refint/
